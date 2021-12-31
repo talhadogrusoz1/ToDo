@@ -44,7 +44,7 @@ buck-out
 /.lsp-buck-out
 /ReactAndroid/src/main/jni/prebuilt/lib/
 /ReactAndroid/src/main/gen
-
+.buckconfig
 # Android Studio
 .project
 .settings
@@ -80,7 +80,7 @@ package-lock.json
 # Root dir shouldn't have Xcode project
 /*.xcodeproj
 
-# 
+# my choices
   .flowconfig
   .buckconfig
   .editorconfig  
