@@ -21,6 +21,10 @@ DerivedData
 *.xcuserstate
 project.xcworkspace
 
+
+
+
+
 # Gradle
 /build/
 /packages/react-native-gradle-plugin/build/
@@ -37,14 +41,28 @@ project.xcworkspace
 /template/android/app/build/
 /template/android/build/
 
+#ekstra
+.editorconfig
+.eslintrc.js
+.flowconfig
+.gitattributes
+.prettierrc.js
+index.js
+metro.config.js
+yarn.lock
+
+#ios
+ios
+
 # Buck
+.buckconfig
 .buckd
 buck-out
 /.lsp.buckd
 /.lsp-buck-out
 /ReactAndroid/src/main/jni/prebuilt/lib/
 /ReactAndroid/src/main/gen
-.buckconfig
+
 # Android Studio
 .project
 .settings
@@ -79,14 +97,6 @@ package-lock.json
 
 # Root dir shouldn't have Xcode project
 /*.xcodeproj
-
-# my choices
-  .flowconfig
-  .buckconfig
-  .editorconfig  
-  .gitattributes
-  
-
 
 # ReactCommon subdir shouldn't have Xcode project
 /ReactCommon/**/*.xcodeproj
@@ -126,4 +136,3 @@ package-lock.json
 
 # Android memory profiler files
 *.hprof
-.gitattributes
