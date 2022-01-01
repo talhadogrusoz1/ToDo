@@ -36,7 +36,7 @@ export default function App() {
     const changeId = filteredList.map(item => {
       item.id = item.id > delete_id ? item.id - 1 : item.id;
       return item;
-    }); //listeden bir item silindiğinde tüm id leri bir azaltarak güncelliyorum (yeni eklenecek itemın idsi ile çakışmaması için)
+    }); //listeden bir item silindiğinde silininen itemin idsinden büyü idleri bir azaltarak güncelliyorum (yeni eklenecek itemın idsi ile çakışmaması için)
     setlist(changeId);
   };
 
